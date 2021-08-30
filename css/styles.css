@@ -1,9 +1,6 @@
 body {
   background-color: hsl(233, 47%, 7%);
   font-family: "Lexend Deca", sans-serif;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   padding: 1rem;
 }
@@ -68,15 +65,28 @@ p {
   color: hsla(0, 0%, 100%, 0.9);
 }
 
-@media screen and (min-width: 375px) {
+.attribution {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   main {
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1440px;
+    min-width: 1440px;
   }
 
   .container {
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
   }
   img {
     order: 1;
