@@ -79,8 +79,8 @@ p {
   main {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1440px;
-    min-width: 1440px;
+    max-width: 1200px;
+    min-width: 1200px;
   }
 
   .container {
@@ -108,19 +108,21 @@ p {
     align-self: flex-start;
     padding: 1rem;
     font-size: 0.95rem;
+    margin-top: -20px;
   }
 
   .stats {
     align-self: flex-start;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 1rem;
     display: flex;
   }
 
-  .stats div {
-    margin-right: 2rem;
-  }
-
   .block {
     text-align: start;
+    font-size: 1.4rem;
   }
 }
