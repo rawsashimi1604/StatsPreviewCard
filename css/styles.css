@@ -19,7 +19,7 @@ main {
 .image {
   margin: 0;
   padding: 0;
-  background-color: hsl(244, 38%, 16%);
+  background-color: purple;
 }
 
 .image img {
